@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- подключение шрифтов Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/vendor/normalize.css">
+  <link rel="stylesheet" href="/pages/style.css">
+  <title>Online Cinema</title>
+</head>
+<body>
+  <header class="header">
+    <div class="navbar container">
+      <a href="/">
+        <img src="/images/logo.svg" alt="лого">
+      </a>
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="" class="menu-link">Главная</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">Фильмы</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">Кинотеатры</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">События</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">Поддержка</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user">
+        <span class="">Привет, Ирина</span>
+        <img class="avatar" src="./images/avatar.jpg" alt=""аватарка>
+      </div>
+    </div>
+   
+    <div class="film container">
+      <div class="film-info">
+        <small class="film-title-small">Avengers: Infinity War</small>
+        <h1 class="film-title">Мстители: война бесконечности</h1>
+        <p class="film-description">Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по своему желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли никогда ещё не была столь неопределённой.
+        </p>
+        <div class="film-details">
+          <div class="time">
+            <img class="time-icon" src="./images/clock.svg" alt="clock">
+            <span class="time-counter">240 мин.</span>
+          </div>
+          <div class="rating">
+            <img class="rating-icon" src="./images/imdb.png" alt="">
+            <span class="rating-counter"><strong class="rating-current">9.2</strong> / 10</span>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="film-trailer">
+        <img src="./images/play.svg" alt="play">
+      </a>
+    </div>
+    <div class="session container">
+      <div class="session-data">
+        <span class="session-label">Дата</span>
+        <div class="session-date-block">
+          <div class="session-date-item">
+            <span class="session-mount">АПР</span>
+            <span class="session-day">27</span>
+            <span class="session-week">пт</span>
+          </div>
+          <div class="session-date-item">
+            <span class="session-mount">АПР</span>
+            <span class="session-day">28</span>
+            <span class="session-week">cб</span>
+          </div>
+          <div class="session-date-item">
+            <span class="session-mount">АПР</span>
+            <span class="session-day">29</span>
+            <span class="session-week">вс</span>
+          </div>
+          <div class="session-date-item">
+            <span class="session-mount">АПР</span>
+            <span class="session-day">30</span>
+            <span class="session-week">пн</span>
+          </div>
+        </div>
+      </div>
+      <div class="session-cinema">
+        <span class="session-label">Кинотеатр</span>
+        <select class="select select-cinema" name="cinema">
+          <option value="Октябрь, ул. Калужская 28">Октябрь, ул. Калужская 28</option>
+          <option value="IMAX, ул. Центральная 1">IMAX, ул. Центральная 1</option>
+        </select>
+      </div>
+      <div class="session-time">
+        <span class="session-label">Время</span>
+        <select class="select select-time" name="cinema">
+          <option value="12:00">12:00</option>
+          <option value="14:00">14:00</option>
+          <option value="17:00">17:00</option>
+          <option value="23:00">23:00</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+
+</body>
+</html>
